@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android-path-record.iml" filepath="$PROJECT_DIR$/Android-path-record.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-path-record-master.iml" filepath="$PROJECT_DIR$/.idea/modules/android-path-record-master.iml" group="android-path-record-master" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-path-record-master-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-path-record-master-app.iml" group="android-path-record-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/record2-master.iml" filepath="$PROJECT_DIR$/.idea/modules/record2-master.iml" group="record2-master" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/record2-master-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/record2-master-app.iml" group="record2-master/app" />
+    </modules>
+  </component>
+</project>

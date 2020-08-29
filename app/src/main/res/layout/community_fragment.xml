@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="community"
+
+        android:background="#FF9800"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="此刻有6人正在使用改APP记录跑步"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:background="#FFC107"
+        android:id="@+id/t"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="校园风光"
+        android:id="@+id/t2"
+        android:gravity="center_vertical"
+        android:layout_below="@id/t"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="#8AFF5722"></TextView>
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/t2"
+        android:numColumns="auto_fit"
+        android:gravity="center"
+        android:verticalSpacing="5dp"
+        android:columnWidth="100dp"
+        android:id="@+id/gridview"
+        android:background="#FF5722"
+        ></GridView>
+
+</RelativeLayout>
